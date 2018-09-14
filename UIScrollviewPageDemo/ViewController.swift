@@ -42,6 +42,7 @@ class ViewController: UIViewController {
         navigationItem.title = "嵌套测试";
         setupUI();
         addChildController(controllerArr[0])
+        selectSettingWithIndex(selectedIndex: 0)
     }
     func setupUI() -> Void {
         view.backgroundColor = UIColor.white;
